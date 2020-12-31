@@ -1,8 +1,8 @@
 @charset "ISO-8859-1";
 
-/* body {
+body {
   background-color: black;
-} */
+}
 
 .navbar-nav.navbar-center {
     position: absolute;
