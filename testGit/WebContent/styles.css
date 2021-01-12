@@ -4,12 +4,6 @@ body {
   background-color: black;
 }
 
-/* .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-} */
-
 #black-bg {
 	background-color: black;
 	color: white;
@@ -32,4 +26,17 @@ section.visible {
   	vertical-align:middle;
     font-size: 3.0vw;
 	height: 100vh;
+}
+
+.item {
+	max-height: 550px;
+	overflow: hidden;}
+
+img.resize {
+	max-width:100%;
+}
+
+.center {
+	text-align: center;
+	font-size: 2.0vw;
 }
