@@ -24,7 +24,11 @@
         	</button> -->
         	
         <!-- Header -->
-    	<a class="navbar-brand"><img class="img-fluid" src="photos/nameLogo2.png" alt="Alex Romero"></a>
+    	<ul class="nav nav-pills">
+    		<li class="active"><a data-toggle="pill" class="navbar-brand" href="#home">
+    			<img class="img-fluid" src="photos/nameLogo2.png" alt="Alex Romero">
+    		</a></li>
+    	</ul>
     	<!-- Collapsible   button -->
     	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     		<span class="navbar-toggler-icon"></span>
@@ -58,6 +62,11 @@
     	
 	</nav>
 	
+    <div class="tab-content">
+	
+	<div id="home" class="tab-pane active">
+	
+	
 	<div class="jumbotron text-center hundredHeight" id="black-bg">
   		<p>Hello, my name is Alex Romero</p>
   		<p>I'm a student studying Computer Science at the University Of Utah</p>
@@ -67,17 +76,56 @@
  
  	<section> 
  		<div class="container-fluid row section">
+ 		
+ 		  <!-- <ul class="nav nav-tabs"> -->
+ 		  
  		 	<!-- Center Image and resized based on screen size -->
+ 		 	
  		 	<div class="column mx-auto d-block item">
  		 		<div class="mx-auto center d-block">IT</div>
- 		 		<a href=".\IT.html"><img class="img-fluid" src="photos/IT2_Resize.jpg" alt="IT"></a>
+ 		 		
+ 		 			<a data-toggle="pill" href="#menu1">
+ 		 				<img class="img-fluid" src="photos/IT2_Resize.jpg" alt="IT"></a>
+ 		 			
  		 	</div>
  		 	<div class="column mx-auto d-block item">
  		 		<div class="mx-auto center d-block">Software</div>
- 		 		<a href=".\Software.html"><img class="img-fluid" href="/ITPage" src="photos/OOP2.jpg" alt="Software"></a>
+ 		 			<!-- <li> -->
+ 		 			<a data-toggle="pill" href="#menu2">
+ 		 				<img class="img-fluid" src="photos/OOP2.jpg" alt="Software"></a>
+ 		 			<!-- </li> -->
  		 	</div> 
+ 		 	
+ 		 	<!-- </ul> -->
+ 		 	
  		</div>
  	</section>
+ 	</div>
+ 	
+ 	    	<div id="menu1" class="tab-pane fade">
+     		<h3>Menu 1</h3>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	</div>
+ 	
+ 	
+ 		    	<div id="menu2" class="tab-pane fade">
+      		<h3>Menu 2</h3>
+     		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    		</div>
+    
+ 	</div>
+<!--  	
+ 	<div class="tab-content">
+    	<div id="menu1" class="tab-pane fade">
+     		<h3>Menu 1</h3>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	</div>
+    	<div id="menu2" class="tab-pane fade">
+      		<h3>Menu 2</h3>
+     		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+
+ 	</div> -->
  	 
 </body>
 </html>
