@@ -9,6 +9,10 @@ body {
 	color: white;
 }
 
+.black-bg {
+	color: white;
+}
+
 section {
 	opacity: 0;
 	transform: translate(0, 20px); 
